@@ -1,0 +1,5 @@
+americano = int(input("아메리카노 판매 개수 : "))
+cafelatte = int(input("카페라떼 판매 개수 : "))
+capucino = int(input("카푸치노 판매 개수 : "))
+sales = (americano*2000+cafelatte*3000+capucino*3500)
+print("총 매출은",sales, "입니다")
